@@ -15,7 +15,7 @@ int main(){
 	hexgrid.setViewport(sf::FloatRect(0.25f,0.f,0.5f,0.75f));
 	player2.setViewport(sf::FloatRect(0.75f,0.f,0.25f,1.f));
 
-	HexGrid hex(8,8,60.f,sf::Color(250,0,0));
+	HexGrid hex(8,8,30.f,sf::Color(250,0,0));
 
 	while(app.isOpen()){
 		sf::Event evt;
