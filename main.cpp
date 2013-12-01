@@ -25,12 +25,8 @@ int main(){
 		}
 		app.clear(sf::Color::Black);
 
-		app.setView(hexgrid);
-
 		hex.draw(app);
 		hex.handleMouse(app,evt);
-
-		app.getDefaultView();
 
 		app.display();
 	}
